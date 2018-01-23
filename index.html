@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <table id="myTable">
+        <tr>
+            <td class="tableHead"><button id="calculate" onclick="calculate()">Calculate Grade needed<br>on final to pass</button></td>
+            <td>This program shows you how much is needed on your final to get the highest grade possible in your class</td>
+            <td>The weight of your final is calculated by taking the weights of your other grades from 100</td>
+        </tr>
+        <tr>
+            <td id="addClass">Add Class</td>
+            <td class="tableHead">Homework</td>
+            <td class="tableHead">Classwork</td>
+            <td class="tableHead">Quizzes</td>
+            <td class="tableHead">Tests</td>
+            <td class="tableHead">Participation</td>
+        </tr>
+    </table>
+</body>
+</html>

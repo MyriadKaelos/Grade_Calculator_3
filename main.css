@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+table, tr, td, p{
+    background-color: darkseagreen;
+    border: solid 1px darkolivegreen;
+    padding: 0;
+}
+.tableHead {
+    display: none;
+    margin-outside: 2px;
+    width: 100px;
+    height: auto;
+}
